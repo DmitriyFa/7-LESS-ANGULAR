@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = '7-lesson';
+  name: string = "Дмитрий"
+  surname: string =  "";
+  val: string = "pp";
+
+  func() {
+    // alert("hello");
+    console.log(this.name)
+    console.log(this.surname)
+  }
 }
